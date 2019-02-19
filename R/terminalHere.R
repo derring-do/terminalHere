@@ -7,6 +7,6 @@
 #' @examples
 terminalHere <- function() {
   termId <- terminalCreate(caption = dirname(getSourceEditorContext()$path), shellType = "win-git-bash")
-  terminalSend(id = termId, text = paste("cd", dirname(getSourceEditorContext()$path), "\n"))
+  terminalSend(id = termId, text = paste0("cd '", dirname(getSourceEditorContext()$path), "' \n"))
 }
 
