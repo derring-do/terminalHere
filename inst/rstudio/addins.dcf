@@ -1,0 +1,4 @@
+Name: Terminal Here
+Description: Opens terminal at active file location
+Binding: terminalHere
+Interactive: false
